@@ -6,7 +6,12 @@ module.exports = {
     commonjs: true,
     jest: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'prettier',
+    'plugin:@next/next/recommended',
+  ],
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
@@ -54,5 +59,10 @@ module.exports = {
         allowSeparatedGroups: false,
       },
     ],
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 };
