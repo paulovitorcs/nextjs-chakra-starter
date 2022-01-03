@@ -22,7 +22,7 @@ const Index = () => {
           ter algo pré preparado. Montei aqui um pequeno exemplo com NextJS,
           Chakra UI, um pouquinho de{' '}
           <Link isExternal={true} href="https://fontawesome.com/">
-            NextJS
+            FontAwesome
           </Link>{' '}
           e alguns componentes básicos que provavelmente irei usar.
         </Text>
