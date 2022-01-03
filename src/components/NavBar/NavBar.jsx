@@ -17,7 +17,7 @@ const NavBar = () => {
   const { hasScroll, isReseted } = useScroll();
 
   const bgColor = useColorModeValue('white', 'gray.800');
-  const size = hasScroll ? '15px' : isMobile ? '20px' : '25px';
+  const size = hasScroll ? '15px' : isMobile ? '15px' : '20px';
 
   return (
     <Box
