@@ -8,7 +8,7 @@ const Index = () => {
       <VStack spacing="30px" alignItems="left">
         <Heading as="h1">Hello World 👋 </Heading>
         <Text>
-          Este é apenas um "starter" para projetos com{' '}
+          Este é apenas um starter para projetos com{' '}
           <Link isExternal={true} href="https://nextjs.org/">
             NextJS
           </Link>{' '}
